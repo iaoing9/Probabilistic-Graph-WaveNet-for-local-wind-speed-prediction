@@ -5,7 +5,7 @@ Source code and prediction results for a probabilistic Graph WaveNet for local w
 Case 1: Retrospective hindcasting of mean wind speed using ECMWF reanalysis data and on-site measurements from the long-span bridge site.
 Case 2: Operational forecasting of wind gust using ECMWF forecasts and on-site measurements from two anemometric stations.
 
-Brief Overview and Notes:
+Brief overview and notes:
 
 1. Model naming conventions: GWN stands for Graph WaveNet; TM for Transformer; LSTM for long short-term memory; GRU for gated recurrent unit; QRF for quantile regression forest; SGPR for sparse Gaussian process regression; PM for persistence model; ARIMA for autoregressive integrated moving average; and VAR for vector autoregression. MSE and graph off denote the loss function and graph component ablation variants, respectively. ECMWF only and ANE only denote alternative input configurations using only ECMWF meteorological data or ANE on-site measurements, respectively. The prefix “P-” denotes the probabilistic implementation of the corresponding model.
 
