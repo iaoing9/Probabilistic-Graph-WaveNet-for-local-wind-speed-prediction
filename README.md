@@ -11,7 +11,7 @@ Brief overview and notes:
 
 2. Prediction files: The timestamp-aligned, sample-level predictions for the two cases are provided in two separate Excel workbooks, each containing four sheets: S1. Comparison with benchmarks; S2. Model ablation study; S3. Rolling-origin evaluation; and S4. Multi-seed evaluation. The measurements are subject to data-use restrictions and cannot be publicly shared or redistributed. The PM predictions are also excluded from the released files as they could disclose the underlying measurements.
 
-3. Evaluation scripts: The scripts include Metric evaluation-Gaussian.py and Metric evaluation-Quantile.py. The former is designed to calculate evaluation metrics and scores for all models except QRF, while the latter is designed specifically for QRF.
+3. Evaluation scripts: The scripts include Metric evaluation-Gaussian.py and Metric evaluation-Quantile.py. The former is designed to calculate evaluation metrics and scores for other models except QRF, while the latter is designed specifically for QRF.
 
 4. Probabilistic prediction diagnostics: The diagnostic scripts include Standardized residual diagnostics.py and Distributional calibration diagnostics.py. These scripts are designed as post-processing tools independent of the model implementations. They operate on the generated predictive outputs to assess probabilistic prediction performance.
 
