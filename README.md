@@ -3,6 +3,7 @@
 Source code and prediction results for a probabilistic Graph WaveNet for local wind speed prediction combining meteorological data and on-site measurements
 
 Case 1: Retrospective hindcasting of mean wind speed using ECMWF reanalysis data and on-site measurements from the long-span bridge site.
+
 Case 2: Operational forecasting of wind gust using ECMWF forecasts and on-site measurements from two anemometric stations.
 
 Brief overview and notes:
